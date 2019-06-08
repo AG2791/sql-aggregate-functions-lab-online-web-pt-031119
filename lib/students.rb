@@ -8,6 +8,8 @@ end
 
 def lowest_student_gpa
   
+  SELECT MIN(gpa) FROM students;
+  
 end
 
 def average_student_gpa
