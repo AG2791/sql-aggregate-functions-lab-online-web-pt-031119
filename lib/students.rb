@@ -2,7 +2,7 @@
 
 def highest_student_gpa
   
-  SELECT Max(gpa) FROM students;
+  SELECT MAX(gpa) FROM students;
   
 end
 
@@ -14,7 +14,7 @@ end
 
 def average_student_gpa
   
-  SELECT MIN(gpa) FROM students;
+  SELECT AVG(gpa) FROM students;
   
 end
 
